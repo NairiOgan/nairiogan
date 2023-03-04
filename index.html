@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nairi_Ogan</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Кнопка scroll -->
+    <div class="btn-top_block">
+        <img class="btn-top" src="img/arrow-top-section.svg" alt="наверх">
+    </div>
+    <div class="menu-wrapper">
+        <div class="menu-burger">
+          <button class="menu_btn">
+            <img src="img/burger-menu.svg" alt="menu" class="menu_btn-icon">
+          </button>
+          <nav class="menu-list">
+            <a href="about.html" class="menu-list__item">О себе</a>
+            <a href="skills.html" class="menu-list__item">Навыки</a>
+            <a href="portfolio.html" class="menu-list__item">Портфолио</a>
+            <a href="services.html" class="menu-list__item">Услуги</a>
+            <a href="feedback.html" class="menu-list__item">Отзывы</a>
+            <a href="contacts.html" class="menu-list__item">Контакты</a>
+          </nav>
+        </div>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="menu-block">
+                <div class="logo">
+                    <a href="/">Nairi_Ogan</a>
+                </div>
+                <nav class="menu">
+                    <li class="menu__item"><a href="about.html" class="menu__item-link">О себе</a></li>
+                    <li class="menu__item"><a href="skills.html" class="menu__item-link">Навыки</a></li>
+                    <li class="menu__item"><a href="portfolio.html" class="menu__item-link">Портфолио</a></li>
+                    <li class="menu__item"><a href="services.html" class="menu__item-link">Услуги</a></li>
+                    <li class="menu__item"><a href="feedback.html" class="menu__item-link">Отзывы</a></li>
+                    <li class="menu__item"><a href="contacts.html" class="menu__item-link">Контакты</a></li>
+                </nav>
+            </div>
+            <div class="offer">
+                <h1 class="offer_title">
+                    <span>Надежный <span class="title-bg text">Fullstack</span></span><br> разработчик для твоего проекта
+                </h1>
+                <p class="offer_text">
+                    Тебе нужен афигенный сайт?
+                </p>
+                <p class="offer_text_bg">
+                    Я помогу тебе в этом!
+                </p>
+                <button id="offer-btn-form" class="offer-btn btn offer-btn-form">
+                    Заказать проект
+                </button>
+                <img src="img/header_img.svg" alt="coding" class="offer-img">
+                <img src="img/html.svg" alt="html" class="offer-img-item offer-img-item_one">
+                <img src="img/css.svg" alt="css" class="offer-img-item offer-img-item_two">
+                <img src="img/arrows.svg" alt="arrows" class="offer-img-item offer-img-item_three">
+                <img src="img/php.svg" alt="php" class="offer-img-item offer-img-item_four">
+                <img src="img/coding.svg" alt="coding" class="offer-img-item offer-img-item_five">
+            </div>
+            <div class="hint-header">
+                Нажми, чтобы <span>проконсультироваться</span>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <div class="container">
+            <h2 class="section_title">
+                О себе
+            </h2>
+            <div class="developer-block">
+                <div class="fotorama" data-loop="true" data-widht="453"  data-arrows="true">
+                    <img src="img/me-foto-1.png" alt="me">
+                    <img src="img/me-foto-2.PNG" alt="me">
+                    <img src="img/me-fot-3.PNG" alt="me">
+                </div>
+                <div class="developer-block_texts">
+                    <p class="developer-block_text">
+                        <span class="text-bold">Приветствую мой дорогой друг!</span> Меня зовут Наири, мне 18 лет и я тот самый
+                        <span class="bg-text">FULLSTACK</span>-разработчик о котором ты слышал. Очень люблю свое дело, и
+                        готов разрабатывать пррросто крутейшие сайты для моих клиентов.<br>Работаю в логистической
+                        компании GLOBBING, люблю прогуливаться по ночам на улице со своей компанией, в свободное время
+                        хожу в зал, очень люблю спорт, поэтому надо бы почаще посещать зал :)
+                    </p>
+                    <p class="developer-block_text">
+                        Если по теме, то я владею многочисленными навыками для разработки сайтов. Хорошо знаю <span
+                            class="bg-text">Frontend</span> и довольно хорошо владею навыками в <span
+                            class="bg-text">Beckend’e.</span> Более подробно о моих навыках сможешь узнать, чуть ниже
+                        этой секции
+                    </p>
+                    <img src="img/about-icon.svg" alt="developer" class="about-icon">
+                    <img src="img/about-arrow.svg" alt="arrow" class="about-arrow">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section_title skills-title">
+                Навыки
+            </h2>
+            <h3 class="section_subtitle-skills">
+                Ключевые знания:
+            </h3>
+            <div class="skills-block" id="numbers">
+                <div class="progress-block-item">
+                    <svg class="progress-ring" data-target="1">
+                        <circle class="progress-ring__circle progress-ring__circle_one" stroke="#045944" stroke-width="13" cx="100" cy="100" r="74" fill="transparent" />
+                    </svg>
+                    <div class="progress-ring-text-block">
+                        <p class="progress-ring__text">HTML</p>
+                        <p class="progress-ring__text progress-ring__text_num padding-right" data-max="90">0</p>
+                    </div>
+                </div>
+                <div class="progress-block-item">
+                    <svg class="progress-ring" data-target="1">
+                        <circle class="progress-ring__circle progress-ring__circle_two" stroke="#045944" stroke-width="13" cx="100" cy="100" r="74" fill="transparent" />
+                    </svg>
+                    <div class="progress-ring-text-block">
+                        <p class="progress-ring__text">CSS</p>
+                        <p class="progress-ring__text progress-ring__text_num" data-max="90">0</p>
+                    </div>
+                </div>
+                <div class="progress-block-item">
+                    <svg class="progress-ring" data-target="1">
+                        <circle class="progress-ring__circle progress-ring__circle_three" stroke="#045944" stroke-width="13" cx="100" cy="100" r="74" fill="transparent" />
+                    </svg>
+                    <div class="progress-ring-text-block">
+                        <p class="progress-ring__text">JS</p>
+                        <p class="progress-ring__text progress-ring__text_num" data-max="70">0</p>
+                    </div>
+                </div>
+                <div class="progress-block-item">
+                    <svg class="progress-ring" data-target="1">
+                        <circle class="progress-ring__circle progress-ring__circle_four" stroke="#045944" stroke-width="13" cx="100" cy="100" r="74" fill="transparent" />
+                    </svg>
+                    <div class="progress-ring-text-block">
+                        <p class="progress-ring__text">PHP</p>
+                        <p class="progress-ring__text progress-ring__text_num" data-max="60">0</p>
+                    </div>
+                </div>
+                <img src="img/skills-arrow.svg" alt="arrow" class="skills-arrow">
+            </div>
+        </div>
+    </section>
+    <section class="develop-technique">
+        <div class="container">
+            <h2 class="section_title section_title_two section_title-develop">
+                Техника разработки
+            </h2>
+            <h3 class="section_subtitle-develop-technique">
+                Ключевые навыки:
+            </h3>
+            <div class="tabs">
+                <div class="tabs__nav">
+                    <button class="tabs__nav-btn active" type="button" data-tab="#tab_1">ВЕРСТКА</button>
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab_2">СКРИПТЫ</button>
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab_3">СЕРВЕРНЫЕ</button>
+                </div>
+                <div class="tabs__content">
+                    <div class="tabs__item active" id="tab_1">
+                        <div class="tabs__item-content-wrap">
+                            <div class="tabs-content-wrap__block">
+                                <p class="wrap__block_item">Html5</p>
+                                <p class="wrap__block_item">Css3</p>
+                                <p class="wrap__block_item">Less</p>
+                                <p class="wrap__block_item">БЭМ</p>
+                            </div>
+                            <div class="tabs-content-wrap__block">
+                                <p class="wrap__block_item">Bootstrap</p>
+                                <p class="wrap__block_item">FlexBox</p>
+                                <p class="wrap__block_item">css grid</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs__item" id="tab_2">
+                        <div class="tabs__item-content-wrap">
+                            <div class="tabs-content-wrap__block">
+                                <p class="wrap__block_item">JavaScript</p>
+                                <p class="wrap__block_item">jQuery</p>
+                                <p class="wrap__block_item">React</p>
+                                <p class="wrap__block_item">Typescript</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs__item" id="tab_3">
+                        <div class="tabs__item-content-wrap">
+                            <div class="tabs-content-wrap__block tabs-content-wrap__block_w">
+                                <p class="wrap__block_item">Php</p>
+                                <p class="wrap__block_item">Базы данных и SQL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="img/development-arrow.svg" alt="arrow" class="develop-arrow">
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section_title">
+                Портфолио
+            </h2>
+            <div class="portfolio-wrapper">
+                <div class="section-portfolio one-section-portfolio">
+                    <a href="#popup-one" class="portfolio-block portfolio-item popup-link">
+                        <img src="img/portfolio-item-one.png" alt="Портфолио" class="portfolio-img">
+                    </a>
+                    <a href="#popup-two" class="portfolio-block portfolio-item popup-link">
+                        <img src="img/portfolio-item-two.png" alt="Портфолио" class="portfolio-img">
+                    </a>
+                </div>
+                <div class="section-portfolio two-section-portfolio">
+                    <a href="#popup-three" class="portfolio-block portfolio-item popup-link">
+                        <img src="img/portfolio-item-three.png" alt="Портфолио" class="portfolio-img">
+                    </a>
+                    <a href="#popup-four" class="portfolio-block portfolio-item popup-link">
+                        <img src="img/portfolio-item-four.png" alt="Портфолио" class="portfolio-img">
+                    </a>
+                </div>
+            </div>
+            <div id="popup-one" class="popup">
+                <div class="popap-wrapper">
+                    <div class="popap-porfolio">
+                        <div class="popap-content">
+                            <a href="portfolio.html" class="popap-portfolio-link">
+                                <img src="img/first-work-porfolio.png" alt="Изображение работы" class="popap-portfolio-link-image">
+                            </a>
+                            <div class="content-text">
+                                <h2 class="popap-portfolio-title">ODIGO, верстка лендинга.</h2>
+                                <p class="popap-portfolio-description">
+                                    Проект просто для набивки руки и чтобы было, что пихать в портфолио. Сайт состоит из 7 секций, имеется фиксировано-анимированный Header с помощью JavaScript. Также обичное оживление через CSS.
+                                </p>
+                                <a href="#" class="popap-portfolio-link-page">Ссылочка на проект в GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="popup-close-item close-popup"><img src="img/close.svg" alt="close" class="close-img"></button>
+                </div>
+            </div>
+            <div id="popup-two" class="popup">
+                <div class="popap-wrapper">
+                    <div class="popap-porfolio">
+                        <div class="popap-content">
+                            <a href="portfolio.html" class="popap-portfolio-link">
+                                <img src="img/second-work-porfolio.jpg" alt="Изображение работы" class="popap-portfolio-link-image">
+                            </a>
+                            <div class="content-text">
+                                <h2 class="popap-portfolio-title">Бесплатный курс по верстке на HTML, CSS и JS</h2>
+                                <p class="popap-portfolio-description">Мой проект который поможет начинающим веб-разработчикам начать свой путь легче и без лишних затрат. Мало сайтов там где будет актуальная информация, в основном курсы в сайтах устаревшие и стоят достаточно дорого для начинающего.
+                                    Сайт состоит из 8 страниц вместе с главной, также на главной странице 8 секций. На сайте присутствуют всяческие анимации объектов, svg иконки, js фичи. Сайт адаптирован под все устройства. Сайт написан на флексах, так как мне так удобно. Дизайн сайта кстати сделан мной, хотя не занимаюсь этим) Первый серьезный проект.
+                                    Также у сайта есть натяжка на Wordpress. Пока что ссылки на него нет, потому что сайт не выложен на хостинг, скоро это будет исправлено и вы сможете сами все оценить.
+                                </p>
+                                <a href="#" class="popap-portfolio-link-page">Ссылочка на проект в GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="popup-close-item close-popup"><img src="img/close.svg" alt="close"></button>
+                </div>
+            </div>
+            <div id="popup-three" class="popup">
+                <div class="popap-wrapper">
+                    <div class="popap-porfolio">
+                        <div class="popap-content">
+                            <a href="portfolio.html" class="popap-portfolio-link">
+                                <img src="img/third-work-porfolio.png" alt="Изображение работы" class="popap-portfolio-link-image">
+                            </a>
+                            <div class="content-text">
+                                <h2 class="popap-portfolio-title">ЭКСПОФОРУМ - конгрессно-выставочный центр</h2>
+                                <p class="popap-portfolio-description">
+                                    ЭКСПОФОРУМ - конгрессно-выставочный центр Санкт-Петербурга. Верстка простого лэндинга. Сайт состоит из 5 секций. Сайт адаптирован под все устройства. Сайт написан на флексах, так как мне так удобно. Пока что ссылки на него нет, потому что сайт не выложен на хостинг, скоро это будет исправлено и вы сможете сами все оценить.
+                                </p>
+                                <a href="#" class="popap-portfolio-link-page">Ссылочка на проект в GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="popup-close-item close-popup"><img src="img/close.svg" alt="close"></button>
+                </div>
+            </div>
+            <div id="popup-four" class="popup">
+                <div class="popap-wrapper">
+                    <div class="popap-porfolio">
+                        <div class="popap-content">
+                            <a href="portfolio.html" class="popap-portfolio-link">
+                                <img src="img/third-work-porfolio.png" alt="Изображение работы" class="popap-portfolio-link-image">
+                            </a>
+                            <div class="content-text">
+                                <h2 class="popap-portfolio-title">ЭКСПОФОРУМ - конгрессно-выставочный центр</h2>
+                                <p class="popap-portfolio-description">
+                                    ЭКСПОФОРУМ - конгрессно-выставочный центр Санкт-Петербурга. Верстка простого лэндинга. Сайт состоит из 5 секций. Сайт адаптирован под все устройства. Сайт написан на флексах, так как мне так удобно. Пока что ссылки на него нет, потому что сайт не выложен на хостинг, скоро это будет исправлено и вы сможете сами все оценить.
+                                </p>
+                                <a href="#" class="popap-portfolio-link-page">Ссылочка на проект в GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="popup-close-item close-popup"><img src="img/close.svg" alt="close"></button>
+                </div>
+            </div>
+            <a href="portfolio.html" class="subtitle-portfolio">
+                Посмотреть больше
+            </a>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <h2 class="section_title section_title-services">
+                Услуги
+            </h2>
+            <p class="services-subtitle">
+                Снизу предоставлены основные услуги, также вы можете предложить свою идею и мы это обсудим :)
+            </p>
+            <div class="services-wrapper">
+                <div class="services-block">
+                    <p class="services-block_text">
+                        Верстка Лендинга
+                    </p>
+                </div>
+                <div class="services-block">
+                    <p class="services-block_text">
+                        Верстка Многостраничника
+                    </p>
+                </div>
+                <div class="services-block">
+                    <p class="services-block_text">
+                        Посадка на WORDPRESS
+                    </p>
+                </div>
+                <div class="services-block">
+                    <p class="services-block_text">
+                        Сайт под ключ
+                    </p>
+                </div>
+                <div class="services-block">
+                    <p class="services-block_text">
+                        Доработать ваш код
+                    </p>
+                </div>
+                <div class="services-block">
+                    <p class="services-block_text">
+                        Ускорить скорость загрузки сайта
+                    </p>
+                </div>
+            </div>
+            <p class="subtitle-services border-bottom">
+                Цены и дедлайны зависят от сложности работы
+            </p>
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="container">
+            <h2 class="section_title">
+                Отзывы
+            </h2>
+            <div class="feedback-wrapper">
+                <div class="fotorama" data-width="100%" data-height="500" data-autoplay="5000" data-loop="true" data-arrows="true" data-click="true" data-swipe="true">
+                    <div class="feedback-block">
+                        <img class="recipient-img" src="img/recipient-img.png" alt="Фотография клиента">
+                        <div class="recipient-feedback-description">
+                            <h3 class="feedback-description_title border-bottom">
+                                Иван Иванов
+                            </h3>
+                            <div class="feedback-description_text">
+                                Приветствую меня зовут Иван. Заказывал услугу у Наири по верстке лендинга. Сделал все круто, именно так как Я и хотел. Работали с четким ТЗ и все было выполнено. Очень приятно было иметь дело, буду советовать своим знакомым именно этого Разраотчика.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback-block">
+                        <img class="recipient-img" src="img/recipient-img.png" alt="Фотография клиента">
+                        <div class="recipient-feedback-description">
+                            <h3 class="feedback-description_title border-bottom">
+                                Иван Иванов
+                            </h3>
+                            <div class="feedback-description_text">
+                                Приветствую меня зовут Иван. Заказывал услугу у Наири по верстке лендинга. Сделал все круто, именно так как Я и хотел. Работали с четким ТЗ и все было выполнено. Очень приятно было иметь дело, буду советовать своим знакомым именно этого Разраотчика.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback-block">
+                        <img class="recipient-img" src="img/recipient-img.png" alt="Фотография клиента">
+                        <div class="recipient-feedback-description">
+                            <h3 class="feedback-description_title border-bottom">
+                                Иван Иванов
+                            </h3>
+                            <div class="feedback-description_text">
+                                Приветствую меня зовут Иван. Заказывал услугу у Наири по верстке лендинга. Сделал все круто, именно так как Я и хотел. Работали с четким ТЗ и все было выполнено. Очень приятно было иметь дело, буду советовать своим знакомым именно этого Разраотчика.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="order-project" id="order-form">
+        <div class="container">
+            <h2 class="section_title section_title_two section_title_order">
+                Заказать проект
+            </h2>
+            <div class="order-project-wrapper">
+                <div class="order-project-info">
+                    <p class="order-project-info-subtitle">
+                        Уважаемый клиент, заполните форму для обратной связи
+                    </p>
+                    <p class="order-project-info-text">
+                        Заполните основные данные, после чего Я свяжусь с вами по поводу проекта и начнем обсуждение по вашему проекту. Уточним Техническое Задание с Дедлайнами, а также стоимость услуги.
+                    </p>
+                    <p class="order-project-info-text">
+                        Также я открыт с Вами в социальных сетях, контактная информация есть в конце страницы
+                    </p>
+                </div>
+                <div class="order-project-form">
+                    <form action="#" class="form" id="form">
+                        <input id="user-name" name="user-name" type="text" placeholder="Ваше имя" class="input" autocomplete="off" required>
+                        <div class="select input">
+                            <select id="order-name" name="order-name" class="select-active">
+                                <option value="1" selected disabled>Название услуги</option>
+                                <option value="landing">Верстка Лендинга</option>
+                                <option value="multipage">Верстка Многостраничника</option>
+                                <option value="on-wordpress">Посадка на WORDPRESS</option>
+                                <option value="site-key">Сайт под ключ</option>
+                                <option value="code-improvement">Доработать ваш код</option>
+                                <option value="speed-up-download">Ускорить скорость загрузки сайта</option>
+                                <option value="other">Другое</option>
+                            </select>
+                        </div>
+                        <input id="user-mail" name="user-mail" type="email" placeholder="Ваша почта" class="input" autocomplete="off" required>
+                        <textarea id="description" name="description" placeholder="Описание проекта" class="input input-desc" required></textarea>
+                        <button type="submit" class="form-btn" title="Нажми меня :3" >Заказать проект</button>
+                    </form>
+                </div>
+                <img src="img/arrow-order-one.svg" alt="arrow" class="order-arrow_one">
+                <img src="img/arrow-order-two.svg" alt="arrow" class="order-arrow_two">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-wrapper-question">
+                    <h3 class="footer-wrapper-question_title">Остались какие то вопросы?</h3>
+                    <div class="footer-wrapper-question_text">Вы также можете заполнить форму и указать ряд Ваших вопросов, выбрав в поле “Название услуги” - “Другое”.</div>
+                    <div class="footer-wrapper-question_text">После отправи формы Я свяжусь с вами в течении 2-4 дней.</div>
+                </div>
+                <div class="footer-wrapper-main">
+                    <h3 class="footer-wrapper-main_title border-bottom">Выбирайте меня и погнали!</h3>
+                    <p class="footer-wrapper-main_description">Все права защищены, <a href="privacy-policy.html">политикой конфиденциальности</a></p>
+                </div>
+                <div class="footer-wrapper-contacts">
+                    <h3 class="footer-wrapper-contacts_title footer-wrapper-question_title">Мои контактные данные:</h3>
+                    <a href="mailto:oganesyannairi@gmail.com" class="footer-wrapper-contacts_mail">oganesyannairi@gmail.com</a>
+                    <div class="footer-wrapper-contacts-block">
+                        <a href="https://vk.com/ya_yche_y_nee_v_golovee" target="_blank" class="contacts-block__link">
+                            <img src="img/vk-icon.svg" alt="vk" class="contacts-block__link-img">
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com/nairi_oganesyan_/?hl=ru" class="contacts-block__link">
+                            <img src="img/inst-icon.svg" alt="instagram" class="contacts-block__link-img">
+                        </a>
+                        <a href="https://t.me/noganesyan" target="_blank" class="contacts-block__link">
+                            <img src="img/telegram-icon.svg" alt="telegram" class="contacts-block__link-img">
+                        </a>
+                        <a href="https://wa.me/37433777681?text=Здравствуйте%2C+у+меня+есть+вопрос" target="_blank" class="contacts-block__link">
+                            <img src="img/whatsapp-icon.svg" alt="whatsapp" class="contacts-block__link-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/fotorama.css">
+    <script src="js/fotorama.js"></script>
+</body>
+
+</html>
